@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FlashBacks - My Gaming Website</title>
+    <style>
+        body {
+            background-color: purple;
+            color: white;
+            font-family: Arial;
+            margin: 20px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: yellow;
+        }
+        
+        h2 {
+            color: cyan;
+        }
+        
+        table {
+            border: 2px solid white;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        th {
+            background-color: darkblue;
+            color: white;
+            padding: 10px;
+            border: 1px solid white;
+        }
+        
+        td {
+            border: 1px solid white;
+            padding: 8px;
+            background-color: darkpurple;
+        }
+        
+        .nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .nav a {
+            color: yellow;
+            margin: 0 20px;
+            text-decoration: underline;
+        }
+        
+        input, select, textarea {
+            width: 300px;
+            margin: 5px;
+            padding: 5px;
+        }
+        
+        button {
+            background-color: orange;
+            color: black;
+            padding: 10px 20px;
+            border: none;
+            margin: 10px;
+        }
+        
+        img {
+            width: 150px;
+            height: 150px;
+            margin: 10px;
+        }
+        
+        .banner {
+            width: 100%;
+            height: 350px;
+            display: block;
+            object-fit: cover;
+            object-position: center;
+            margin: 0 auto 20px auto;
+            border: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <img src="flashback.jpg" alt="FlashBacks Banner" class="banner">
+    
+    <h1>Welcome to FlashBacks!</h1>
+    
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="BitsandBytes.html">Bits and Bytes</a>
+        <a href="FlashBacks.html">FlashBacks</a>
+        <a href="https://github.com/WimJ94/CTI110">My Github</a>
+    </div>
+    
+    <p style="text-align: center;">Welcome to FlashBacks! This is where nostalgia comes alive and gaming memories are shared with the community.</p>
+
+    <p style="text-align: center;">Share your favorite gaming memories, post pictures of your classic gaming setups, and connect with others who appreciate the golden age of gaming. From your first game completion to discovering hidden secrets, every memory matters here!</p>
+
+    <p style="text-align: center;">Whether it's that epic boss battle you finally conquered or finding a rare cartridge at a garage sale - share your story and let others relive those magical gaming moments with you!</p>
+
+    
+    <h2>Gaming Memories Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Game</th>
+            <th>Console</th>
+            <th>Year</th>
+            <th>What Happened</th>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>Super Mario</td>
+            <td>NES</td>
+            <td>1990</td>
+            <td>I beat the game!</td>
+        </tr>
+        <tr>
+            <td>Sarah</td>
+            <td>Zelda</td>
+            <td>NES</td>
+            <td>1988</td>
+            <td>Found secret room</td>
+        </tr>
+        <tr>
+            <td>Mike</td>
+            <td>Sonic</td>
+            <td>Genesis</td>
+            <td>1992</td>
+            <td>Got all emeralds</td>
+        </tr>
+        <tr>
+            <td>Lisa</td>
+            <td>Street Fighter</td>
+            <td>SNES</td>
+            <td>1993</td>
+            <td>Did a cool combo</td>
+        </tr>
+    </table>
+    
+    <h2>Tell Me Your Memory!</h2>
+    <form>
+        <p>Your Name: <input type="text" name="name"></p>
+        <p>Game Title: <input type="text" name="game"></p>
+        <p>Console: 
+            <select name="console">
+                <option>Nintendo</option>
+                <option>Super Nintendo</option>
+                <option>Nintendo 64</option>
+                <option>PlayStation</option>
+                <option>Genesis</option>
+                <option>Other</option>
+            </select>
+        </p>
+        <p>Year: <input type="text" name="year"></p>
+        <p>Your Story:<br>
+            <textarea name="story" rows="5" cols="50"></textarea>
+        </p>
+        <p>Picture: <input type="file" name="picture"></p>
+        <button type="submit">Submit</button>
+    </form>
+    
+    <p>Copyrights &copy;2025&nbsp;&nbsp;&nbsp; 
+    <a href="mailto:Wimberlj3704@student.faytechcc.edu">Contact Us!</a>
+    </p>
+    
+</body>
+</html>
